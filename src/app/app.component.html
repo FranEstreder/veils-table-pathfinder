@@ -1,7 +1,18 @@
+<!-- 
+Bind
+BindEffect
+Description
+Descriptors
+Essence
+Link
+Name
+ShortDescription
+Slot -->
+
 <div class="card">
   <p-table
     #dt
-    [value]="velos"
+    [value]="veils"
     dataKey="id"
     [rows]="10"
     [showCurrentPageReport]="true"
@@ -21,7 +32,12 @@
         ></button>
         <span class="p-input-icon-left ml-auto">
           <i class="pi pi-search"></i>
-          <!-- <input pInputText type="text" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Search keyword" /> -->
+          <input
+            pInputText
+            type="text"
+            (input)="applyFilterGlobal($event, 'contains')"
+            placeholder="Search keyword"
+          />
         </span>
       </div>
     </ng-template>
@@ -39,28 +55,28 @@
         </th>
       </tr>
     </ng-template>
-    <ng-template pTemplate="body" let-velo>
+    <ng-template pTemplate="body" let-veil>
       <tr>
         <td>
-          {{ velo.Name }}
+          {{ veil.Name }}
         </td>
         <td>
-          {{ velo.Descriptors }}
+          {{ veil.Descriptors }}
         </td>
         <td>
-          {{ velo.Slot }}
+          {{ veil.Slot }}
         </td>
         <td>
-          {{ velo.Description }}
+          {{ veil.Description }}
         </td>
         <td>
-          {{ velo.Essence }}
+          {{ veil.Essence }}
         </td>
         <td>
-          {{ velo.Bind }}
+          {{ veil.Bind }}
         </td>
         <td>
-          <a [href]="velo.Link" target="_blank"> {{ velo.Name }}</a>
+          <a [href]="veil.Link" target="_blank"> {{ veil.Name }}</a>
         </td>
       </tr>
     </ng-template>

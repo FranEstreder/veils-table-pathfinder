@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 import { Table } from 'primeng/table';
 
-import data from '../assets/json/velos.json';
+import data from '../assets/json/veils.json';
 
-import { Velo } from './interface/velo';
+import { Veil } from './interface/veil';
 
 @Component({
   selector: 'app-root',
@@ -12,19 +12,26 @@ import { Velo } from './interface/velo';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'tabla-velos';
+  @ViewChild('dt') table!: Table;
 
-  public velos: Velo[];
+  public veils: Veil[];
 
   public headers: string[];
 
   constructor() {
     console.log(data);
-    this.velos = data;
-    this.headers = Object.keys(this.velos[1]);
+    this.veils = data;
+    this.headers = Object.keys(this.veils[1]);
   }
 
   public clear(table: Table) {
     table.clear();
+  }
+
+  public applyFilterGlobal($event: any, stringVal: string) {
+    this.table.filterGlobal(
+      ($event.target as HTMLInputElement).value,
+      stringVal
+    );
   }
 }

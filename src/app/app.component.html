@@ -1,0 +1,68 @@
+<div class="card">
+  <p-table
+    #dt
+    [value]="velos"
+    dataKey="id"
+    [rows]="10"
+    [showCurrentPageReport]="true"
+    [rowsPerPageOptions]="[10, 25, 50]"
+    [paginator]="true"
+    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [globalFilterFields]="headers"
+  >
+    <ng-template pTemplate="caption">
+      <div class="flex">
+        <button
+          pButton
+          label="Clear"
+          class="p-button-outlined"
+          icon="pi pi-filter-slash"
+          (click)="clear(dt)"
+        ></button>
+        <span class="p-input-icon-left ml-auto">
+          <i class="pi pi-search"></i>
+          <!-- <input pInputText type="text" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Search keyword" /> -->
+        </span>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+      <tr>
+        <th *ngFor="let header of headers">
+          <div class="flex align-items-center">
+            {{ header }}
+            <p-columnFilter
+              type="text"
+              [field]="header"
+              display="menu"
+            ></p-columnFilter>
+          </div>
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-velo>
+      <tr>
+        <td>
+          {{ velo.Name }}
+        </td>
+        <td>
+          {{ velo.Descriptors }}
+        </td>
+        <td>
+          {{ velo.Slot }}
+        </td>
+        <td>
+          {{ velo.Description }}
+        </td>
+        <td>
+          {{ velo.Essence }}
+        </td>
+        <td>
+          {{ velo.Bind }}
+        </td>
+        <td>
+          <a [href]="velo.Link" target="_blank"> {{ velo.Name }}</a>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

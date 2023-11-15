@@ -2,6 +2,8 @@
   {
     "Name": "Drunkard's Sash",
     "Descriptors": "None",
+    "ShortDescription": "Gain temporary hit points from drinking",
+    "BindEffect": "Gain additional bonuses depending on drink",
     "Slot": ["Belt"],
     "Description": "Originally designed to keep the veilweaver upright as she stumbled home, this veil now assists veilweavers in combat when they pick fights after having one too many drinks.\n\nWhile this veil is shaped, the veilweaver takes no penalties from drinking alcohol or being drunk.\n\nWhenever this veilweaver takes a drink (from a potion, alcohol, alchemist extracts, etc), the veilweaver gains temporary hit points equal to twice their character level. These temporary hit points can only be gained once per round, last for one minute, and stack with themselves up to half of the veilweaver's maximum hit points.",
     "Essence": "The veilweaver gains damage reduction/- equal to the amount of essence invested in this veil while these temporary hit points persist. If the veilweaver already has DR, the veilweaver may instead increase that DR by half of the essence investment (minimum 1).",
@@ -13,6 +15,8 @@
   {
     "Name": "Mermaid's Tail",
     "Descriptors": "Teleportation, Water",
+    "ShortDescription": "Breathe water and air, gain a swim speed",
+    "BindEffect": "Gain Feet bind, use create water, rising water, and control water as SLAs",
     "Slot": ["Feet", "Belt"],
     "Description": "While on land, this veil is invisible. When plunged into water, however, it takes the form of a pearlescent tail which covers your legs and stomach.\n\nWhen this veil is formed it grants the wearer the ability to breathe water as well as air. They also gain a 20 foot swim speed, or add 10 feet to their existing swim speed.\n\nAquatic creatures may shape an alternate version of this veil which allows them to breathe air and grants a land speed instead of a swim speed. If the creature's land speed is at least 30 feet, any subsequent increase from essence for this land speed only increases by 5 feet instead of 10.",
     "Essence": "Each point of essence invested in this veil increases the wearer's swim speed by 10 feet.",
@@ -25,6 +29,8 @@
   {
     "Name": "The Duelist",
     "Descriptors": "Title",
+    "ShortDescription": "Challenge enemies to duels, become protected against non-dueled targets",
+    "BindEffect": "Build temporary essence, oppose attack rolls",
     "Slot": ["Belt"],
     "Description": "A red sash sits snugly across the hips of the Duelist. Every duel won is marked by a golden notch across the sash.\n\nThe entitled gains the ability to mark an enemy as a swift action. This enemy remains marked until they reach 0 or fewer hit points, is knocked unconscious, or one minute after combat ends. The entitled may only mark one enemy this way at a time, and may not mark a creature while they already have a creature marked. While an enemy is marked, the entitled gains a +2 bonus to AC and on saves against all attacks not originating from the marked target, as well as a +2 bonus on attack and damage rolls against the marked target.",
     "Essence": "Each point of essence invested in this veil increases the bonuses to AC and on attack rolls granted by this veil by 1. Every two points of essence increases the bonuses to saving throws and on damage rolls granted by this veil by 1.",
@@ -36,6 +42,8 @@
   {
     "Name": "The Venomous",
     "Descriptors": "Poison, Title",
+    "ShortDescription": "Your attacks become envenomed",
+    "BindEffect": "Boost poison DC, ignore immunity & treat poisoned foes as flat-footed",
     "Slot": ["Belt"],
     "Description": "An akashic belt that contains dozens of crystal filed vials sits around the Venomous' hips.\n\nThe entitled gains the poison use class feature, no longer risking accidentally poisoning themselves. In addition, their weapons are always considered to be coated in a vile akashic poison with the following stats:\n\nAkashic Poison\n\nType poison (injury); Save Fortitude DC (10 + 1/2 veilweaver level + veilweaving modifier)\n\nOnset -; Frequency 1/round for 6 rounds\n\nEffect 2 Con damage; Cure 1 save\n\nSpecial This poison cannot deal ability damage that would equal or exceed an enemy's ability score. If it would, the excess ability damage is instead applied to a different attribute of the entitled's choosing, provided the ability damage would not equal or exceed that ability score. If there are no valid attributes for this redirection, this poison fails to do any more damage.\n\nAs a swift action, the entitled may change any number of the following attributes:\n\nSave Fortitude or Will\nOnset instantaneous, 1 round, 1 minute, or 10 minutes.\nFrequency 1/round for 6 rounds, 1/minute for 6 minutes, or 1/10 minutes for 1 hour.\nEffect 2 damage to an ability score of your choice or 1 point of essence burn.\nAlternatively, as a swift action, the entitled may suppress this veils effects. The entitled may undo this suppression as a swift action.",
     "Essence": "For each point of essence invested in this veil, the save DCs of poisons the entitled uses, and Steel Serpent maneuvers the entitled initiates, increase by +1. For every 2 points of essence invested in this veil, the ability damage or essence burn dealt by the akashic poison increases by 1.",
@@ -47,6 +55,8 @@
   {
     "Name": "Werewolf's Pelt",
     "Descriptors": "None",
+    "ShortDescription": "Gain a bonus to Perception and DR/silver or good",
+    "BindEffect": "Temporarily transform into a werewolf",
     "Slot": ["Belt", "Shoulders"],
     "Description": "“The likeness of a greedy, devouring wolf, strong and mighty...with most sharp and cruel teeth, a huge body, and mighty paws.” -Testimony of Peter Stumpp\n\nA silver furred wolf pelt tightly clings to your shoulders or waist imparting you with a small measure of a werewolf's predatory might, which grants you a +2 insight bonus to Perception checks based on scent and DR 2/silver or good.",
     "Essence": "For each point of essence invested in this veil the insight bonus to Perception checks based on scent increases by +1 and the damage reduction increases by 1.",
@@ -59,6 +69,8 @@
   {
     "Name": "The Conduit",
     "Descriptors": "Psionic, Title",
+    "ShortDescription": "Interact with incorporeal and ethereal creatures, gain +1 ML to athanatism powers",
+    "BindEffect": "Walk through walls",
     "Slot": ["Body"],
     "Description": "The limbs of the Conduit fade in and out of existence, becoming as ethereal as a ghost.\n\nThe entitled creature may interact with incorporeal and ethereal creatures as though they were corporeal (including the entitled creature's attacks, spells and powers, and other abilities). This otherwise treats the entitled creature as though their weapons had the ghost touch special ability (also affected ethereal creatures), their spells and powers were modified by the Ectoplasmic Spell metamagic or Ectoplasmic Power metapsionic, and other similar modifications to the entitled creature's effects.\n\nWhenever the entitled manifests a power of the athanatism discipline, they do so with a +1 bonus to their manifester level.",
     "Essence": "Each point of essence invested in this veil grants the entitled a +5% miss chance. This miss chance applies even against abilities which target the entitled that do not require an attack roll (such as being targeted by a charm person spell), but not against area of effect abilities or effects that would be able to affect incorporeal or ethereal creatures. This miss chance does not stack with other miss chance effects.",
@@ -70,6 +82,8 @@
   {
     "Name": "The Ephemeral",
     "Descriptors": "Title",
+    "ShortDescription": "Gain the ability to teleport; become stealthy while doing so",
+    "BindEffect": "Conjure concealing smoke",
     "Slot": ["Body"],
     "Description": "The Ephemeral's skin takes on a midnight blue tint.\n\nAs a move action, the entitled can teleport a distance up to their speed into an unoccupied space they can see. When the entitled teleports, they create a momentary diversion, allowing them to make a Stealth check, if they're not already using Stealth, at the usual -10 penalty (As normal, they must get to an unobserved location to take advantage of a diversion in this way). This move action provokes attacks of opportunity.",
     "Essence": "For each point of essence invested in this veil, the maximum range of the entitled's teleports increases by 5 feet.",
@@ -81,6 +95,8 @@
   {
     "Name": "The Twin",
     "Descriptors": "Title",
+    "ShortDescription": "Gain clones you can threaten with",
+    "BindEffect": "Swap places with duplicate",
     "Slot": ["Body"],
     "Description": "The Twin's shadow takes on a deep blue hue, and its movements no longer perfectly match their own. When they use the veil's ability, their shadow shifts and shrinks as a translucent, blue-tinted double of the Twin takes form.\n\nThe entitled gains an ephemeral duplicate of the same size as them that has the same restrictions as the entitled regarding where and how it can move, except that it can freely share its space with creatures. The duplicate cannot attack or be attacked (sunder attempts against the veil are directed at the entitled, as normal). As the duplicates are not creatures, they cannot be affected by spells or similar abilities, but are still subject to the laws of physics (such as gravity) and any effects that may change them (such as a reverse gravity spell).\n\nWhenever the entitled chooses to move, they can will their duplicate to move an equal or lesser distance as part of that movement. The duplicate can also be moved up to the entitled's speed or recalled to the entitled's space as a swift action. The duplicate must remain within close range (25 feet + 5 feet per 2 veilweaver levels) of the entitled, and winks out if ever moved beyond this distance, instantly reappearing within the entitled's space. If the duplicate needs to make a skill check related to this movement (such as jumping), the duplicate uses the entitled's skill modifier on the check. If the entitled makes a similar check for their own movement, the duplicate's check shares the die roll as well.\n\nEnemies of the entitled treat the duplicates as an enemy with a reach of 5 feet for the purpose of being flanked. The entitled threatens spaces adjacent to her twins (provided the entitled can threaten with the weapon they are wielding), regardless of distance, and may make attacks of opportunity against creatures that provoke within those spaces.",
     "Essence": "The entitled's duplicate provides superior harassment; creatures taking advantage of the duplicate's placement gain a bonus on damage rolls against creatures they flank with it equal to the amount of essence invested in this veil. At 2 essence, and every 2 essence thereafter, the entitled receives another duplicate",
@@ -92,6 +108,8 @@
   {
     "Name": "The Dragon",
     "Descriptors": "Title",
+    "ShortDescription": "Rend with two weapons by using a breath weapon",
+    "BindEffect": "Dual attack to ignore DR & boost damage",
     "Slot": ["Chest"],
     "Description": "Golden akasha settles within the Dragon's chest. When the Dragon proves themselves worthy, the essence within surges forth as a white hot flame.\n\nWhen the entitled hits with an attack from both their primary hand and an off-hand or two different naturals weapons (two different claws, a claw and a bite, but not two bites, for example) in the same turn, once per round, they may, as a free action before the end of the turn, breathe a 20-foot cone or a 40-foot line of white-hot akasha, dealing 1d6 points of untyped damage to all opponents within the area (Reflex negates).\n\nIn addition, as a standard action, the entitled may make a single attack against a creature with their primary and off-hand weapon, taking penalties as normal for two-weapon fighting.\n\nUnlike for other veils, the save DCs for this veil are equal to 10 + 1/2 your veilweaver level + your veilweaving modifier. The damage of this veil increases to 2d6 at veilweaver level 5th, and by an additional 1d6 every five veilweaver levels thereafter.",
     "Essence": "Every point of essence reduces the entitled's penalty for fighting with two weapons by 1. Every 2 points of essence invested in this veil increases the damage done by this veil by 1d6.",
@@ -103,6 +121,8 @@
   {
     "Name": "The Egoist",
     "Descriptors": "Psionic, Title",
+    "ShortDescription": "Gain the effects of minor metamorphosis, gain +1 ML when manifesting psychometabolism powers",
+    "BindEffect": "Change your appearance at-will, upgrade to more powerful metamorphosis effects",
     "Slot": ["Chest"],
     "Description": "The Egoist's flesh twists and roils, forming into strange new shapes.\n\nThe entitled gains the effects of minor metamorphosis, chosen when this veil is shaped.\n\nWhenever the entitled manifests a power of the psychometabolism discipline, they do so with a +1 bonus to their manifester level.",
     "Essence": "Investing essence in this veil does nothing. Instead, each point of essence bound to this veil counts as 2 power points spent augmenting the power it grants. If the bound essence is burned, the effects of the power remain the same when rebound. The entitled may bind essence into this veil, if they wish.",
@@ -114,6 +134,8 @@
   {
     "Name": "The Engineer",
     "Descriptors": "Title",
+    "ShortDescription": "Gain Improved Sunder, deal additional damage with sunders, disarm magical traps",
+    "BindEffect": "Gain Greater Sunder, repair broken objects",
     "Slot": ["Chest"],
     "Description": "A vest full of strange tools covers the Engineer's chest.\n\nThe entitled gains the effects of the Improved Sunder feat. If they already have Improved Sunder, their sunder attempts deal additional damage equal to half your veilweaver level. Additionally, they can use Disable Device to disable magical traps.",
     "Essence": "For each point of essence invested in this veil, the entitled's attacks ignore one point of DR or hardness.",
@@ -125,6 +147,8 @@
   {
     "Name": "The Primordial",
     "Descriptors": "Acid, Cold, Electricity, Fire, Title",
+    "ShortDescription": "Gain animus and various elemental effects",
+    "BindEffect": "Enhance elemental effects",
     "Slot": ["Chest"],
     "Description": "The Primordial's chest is covered in this akashic veil, rendering it invisible. In its place lies a swirling panoply of stone, fire, water, and air.\n\nThe entitled gains Tap Animus as a bonus feat. If they already possess an animus pool, this feat is exchanged for Extra Animus as normal. They also gain access to each of the following abilities, which can be used by spending animus.\n\nEarth's Response: When the entitled is hit with an attack, they can spend 3 or more points of animus to activate this ability as an immediate action, causing the earth to erupt around the attacker. The entitled makes a ranged touch attack against that creature that does not provoke attacks of opportunity. If it hits, that creature is pushed 5 feet in any direction, plus an additional 5 feet for each point of animus spent past the third. Treat this movement as successful bull rush attempt.\n\nThunderstrike: When the entitled makes an attack, they can spend at least 3 points of animus to activate this ability as a swift action, denying the target their Dexterity bonus to their AC against the attack and converting the damage of their attack to electricity damage. The entitled also gains a bonus to AC equal to the amount of animus spent against any attacks of opportunity the attack may provoke.\n\nWarmth of the Sun: The entitled can spend at least one point of animus as a free action, even if they couldn't act normally (for example, while stunned). When the entitled does so, they may make a saving throw against an ongoing effect on them that allows for multiple saving throws over time to negate, or if the effect has its duration measured in rounds, at the effect's original DC. Thy receive a bonus on this save equal to the amount of animus spent. If it succeeds, the effect ends. This does not progress poison, diseases, or similar effects on a failed saving throw. This ability may only be used once per round.\n\nIce Armor: As a free action, the entitled may spend at least one point of animus, gaining a number of temporary hit points for each point of animus spent equal to 2 plus the amount of essence invested in this veil. These temporary hit points last for 1 minute or until used.",
     "Essence": "For each point of essence invested in this veil, whenever the entitled enters combat, they gain 1 point of animus at the start of their first turn.",
@@ -136,6 +160,8 @@
   {
     "Name": "The Nomad",
     "Descriptors": "Psionic, Title",
+    "ShortDescription": "Float above the ground, walk on infirm surfaces, walls, and ceilings. Gain +1 ML when manifesting psychoportation powers",
+    "BindEffect": "Gain improved uncanny dodge, treat an adjacent square as yourself for flanking",
     "Slot": ["Feet"],
     "Description": "The Nomad floats above the ground, spurning the earth and laughing at gravity.\n\nThe entitled can float up to 1 foot above the ground. They may move as though standing on solid ground, even walking above unstable or infirm surfaces, like water or tree branches. Additionally, they may walk up walls or across ceilings as though they were level floors, as well as float away from them as though they were ground. This effect is constantly active, even when unconscious, unless the entitled deliberately suppresses it (a free action), is heavily encumbered, or is slain. If the entitled is carrying a medium load or wearing heavy or medium armor while using this veil, their speed is reduced to 10 feet per round.\n\nWhenever the entitled manifests a power of the psychoportation discipline, they do so with a +1 bonus to their manifester level.",
     "Essence": "Each point of essence invested in this veil allows the entitled to float an additional 10 feet away from a surface.",
@@ -147,6 +173,8 @@
   {
     "Name": "The Skirmisher",
     "Descriptors": "Title",
+    "ShortDescription": "Move yourself and enemies when you attack",
+    "BindEffect": "Shove enemies on hit",
     "Slot": ["Feet"],
     "Description": "The Skirmisher's feet are surrounded by swirling eddies of wind, spirals of dust and debris trapped within.\n\nWhen the entitled hits with an attack, they can move up to 10 feet as a free action without provoking attacks of opportunity, even if it isn't their turn. In any given round, the entitled cannot move further than their movement speed using this ability. (Movement taken from other abilities, such as a move action, do not count towards the limit of this veil.)",
     "Essence": "For each point of essence invested in this veil, the entitled gains a +10-foot bonus to each of their movement speeds.",
@@ -158,6 +186,8 @@
   {
     "Name": "The Stormbringer",
     "Descriptors": "Sonic, Title",
+    "ShortDescription": "Gain bonuses from attacking from a charge or from attacking after a jump",
+    "BindEffect": "Create energy burst on jump or fall",
     "Slot": ["Feet"],
     "Description": "Every step the Stormbringer takes falls with the sound of distant thunder.\n\nThe entitled becomes immune to falling damage, and may choose to fall instantly to the ground from any height. The entitled also gains a bonus on Acrobatics checks made to jump equal to twice their Hit Dice.\n\nIn addition, if the entitled attacks their opponent from a higher elevation (including after jumping towards them), they are considered to be charging that opponent for the purposes of feats and abilities that would provide a beneficial effect. This effect can only happen once per turn. Finally, unlike other titles, the Stormbringer is not suppressed when it moves out of range of the veilweaver.",
     "Essence": "Each point of essence invested in this veil grants the entitled a +2 bonus on all Acrobatics checks and a +2 bonus to AC against attacks of opportunity and reduces the entitled's armor check penalty by 2. If this reduces the entitled's armor check penalty to 0, then the entitled takes no movement speed penalties from wearing medium or heavy armor.",
@@ -169,6 +199,8 @@
   {
     "Name": "The Wind",
     "Descriptors": "Title",
+    "ShortDescription": "Drawing a weapon creates a whirlwind for attacking",
+    "BindEffect": "Sheathe weapon as a free action, step towards attacked enemy",
     "Slot": ["Feet"],
     "Description": "Eddies of air circle around the Wind's feet. At a moment's notice, they can turn into a violent gust.\n\nThe entitled may draw their weapon as a part of an attack. Once per round when the entitled draws a weapon as a part of an attack, they may make that attack against any enemy within close range (25 feet + 5 feet per two veilweaver levels), even if that enemy isn't within their reach. The attack is still treated as a melee attack.",
     "Essence": "Each point of essence invested in this veil grants a +2 bonus on initiative checks and a +1 bonus to dodge AC.",
@@ -180,6 +212,8 @@
   {
     "Name": "Jack's Lantern",
     "Descriptors": "Evil, Fire, Necromancy",
+    "ShortDescription": "Summon a jack-o-lantern that acts as a light hammer",
+    "BindEffect": "Creatures illuminated by your lantern are protected by a hide from undead spell",
     "Slot": ["Hands", "Wrists"],
     "Description": "“How will you light your way? Here is a coal for you, hot from my own fires. Now quit my gate and make for yourself a lantern, stingy Jack.” - Mephistopheles\n\nWhen you shape this veil you gain the ability to manifest a jack-o'-lantern with infernal akashic flames glowing within it. This weapon-like veil sheds normal light in a 10 ft. radius around you and acts as a light hammer sized appropriately for you. Instead of dealing bludgeoning damage like a normal light hammer, the damage dealt by this weapon is fire damage. Treat the base weapon size as one category smaller if the target of the attack is a devil, or one category larger if they are an undead; these size modifiers stack with all other size changes or virtual size changes. You may choose to use your veilweaver level in place of your base attack bonus when attacking with this veil. Throwing the jack-o'-lantern as a ranged attack does not cause it to dissipate, and it reappears in your hand after the attack resolves.",
     "Essence": "For each point of essence invested in this veil the radius of normal light increases by 5 feet and the weapon. For every odd-numbered point of essence invested in this veil, it deals an additional 1d4 points of profane damage. For every even-numbered point of essence invested in this veil it deals an additional 1d4 points of fire damage. This bonus damage is not affected by size increases or multiplied on a critical hit. As long as you have at least 3 points of essence invested in this veil, undead creatures treat other creatures in squares illuminated by this veil as if those creatures were under the effects of hide from undead. If this effect is ended, as described in the spell, you can resume it by taking a point of essence burn as a full-round action.",
@@ -192,6 +226,8 @@
   {
     "Name": "The Brawler",
     "Descriptors": "Title",
+    "ShortDescription": "Make free disarms, dirty tricks, or trips and empower them",
+    "BindEffect": "Enhance combat maneuvers",
     "Slot": ["Hands"],
     "Description": "With each strike, the air ripples out from the Brawler's fits.\n\nAs a move action, the entitled may store energy within this veil as a ‘charge', up to a maximum of two charges. Whenever the entitled hits with a weapon attack, the entitled may expend a charge as a free action, even if it isn't their turn (but only once per attack), to immediately make a disarm, dirty trick, reposition, or trip combat maneuver against the target. This combat maneuver attempt does not provoke an attack of opportunity. If the entitled could already use the combat maneuver without provoking attacks of opportunity, the entitled instead gains a +4 bonus on their CMB check.",
     "Essence": "Each point of essence invested in this veil grants a +1 bonus on CMB checks for disarm, dirty trick, reposition, or trip combat maneuvers. Every 2 points of essence invested in this veil increases the number of charges the veil can hold by 1.",
@@ -203,6 +239,8 @@
   {
     "Name": "The Jovial",
     "Descriptors": "Title",
+    "ShortDescription": "Gain Improved Feint, feint as part of moving",
+    "BindEffect": "Gain Greater Feint, feint more easily against non-humanoid creatures",
     "Slot": ["Hands"],
     "Description": "Flashing wisps trail from the Jovial's fingertips, distracting those watching them.\n\nThe entitled gains the benefits of the Improved Feint feat. If they already have Improved Feint, they may feint as part of a move action made to move or a charge.",
     "Essence": "For each point of essence invested in this veil, the entitled gains an additional +1 to Bluff checks made to feint and to the DC of checks made to feint them.",
@@ -214,6 +252,8 @@
   {
     "Name": "The Kineticist",
     "Descriptors": "Psionic, Title",
+    "ShortDescription": "Convert any elemental damage to your active energy type, gain +1 ML when manifesting psychokinesis powers",
+    "BindEffect": "Convert all damage you deal to any kind of psionic elemental damage",
     "Slot": ["Hands"],
     "Description": "Flickering wisps of elemental power flow from the Kineticist's fingertips.\n\nWhenever the entitled deals elemental damage, they may choose to convert that damage into their psionic active energy type. If the entitled has a martial active element (such as from the Elemental Flux discipline), they may use that instead of their psionic active energy type.\n\nWhenever the entitled manifests a power of the psychokinesis discipline, they do so with a +1 bonus to their manifester level.",
     "Essence": "Each point of essence invested in this veil increases any fire damage the entitled deals by 3, acid, cold, or electricity damage by 2, and sonic damage by 1. For more esoteric active energy types, treat them as sonic when determining the bonus this effect provides. Only one element may be boosted at a time. If an effect deals multiple types of damage, the entitled chooses only one to gain this effect.",
@@ -225,6 +265,8 @@
   {
     "Name": "The Necromancer",
     "Descriptors": "Title",
+    "ShortDescription": "Place doom marks on foes. Gain temporary hit points as foes take extra damage",
+    "BindEffect": "Doom mark foes from close range",
     "Slot": ["Hands"],
     "Description": "Dark crimson energy surrounds the hands of the Necromancer, allowing them to mark a creature they touch for death.\n\nAs a standard action, the entitled can make a melee touch attack to mark a creature for death. That creature gains a doom mark until the end of the entitled's next turn. This mark can only be seen by you and outsiders tied to death and entropy, such as psychopomps and daemons. Outsiders who can see a creature with a doom mark upon it always treat such creatures with hostility. This ability cannot be used with the conductive special ability, or any other ability that allows a melee touch attack to be delivered by a weapon.\n\nWhenever a creature the entitled has placed a doom mark on takes damage, that creature takes an additional 1d6 points of damage and the entitled gains 1d6 temporary hit points for 1 minute. The damage dealt by this veil is negative energy damage to living creatures and positive energy damage to undead. Creatures that are neither living nor undead (such as constructs) are not affected by this ability. Temporary hit points granted by this ability stack with themselves, to a maximum of twice the veil's veilweaving level + the veil's veilweaving modifier, and the duration is refreshed each time temporary hit points are gained. If the marked creature has a number of Hit Dice fewer than ½ the veil's veilweaving level, the entitled does not gain temporary hit points when the creature is damaged.\n\nWhenever the entitled casts a spell or uses a spell-like ability of the necromancy school, they can instead use this ability as a move action, but the dice of damage dealt and temporary hit points gained are reduced to 1d4 against that marked target.",
     "Essence": "For each odd point of essence invested in this veil the duration of doom marks placed by this veil is increased by 1 round. For each even point of essence invested, the damage dealt and temporary hit points granted when the marked target takes damage is increased by 1d6 (1d4, if the mark was placed as a move action).",
@@ -236,6 +278,8 @@
   {
     "Name": "The Nightmare",
     "Descriptors": "Curse, Title",
+    "ShortDescription": "Curse enemies and cause them to become anchored to the spot",
+    "BindEffect": "Isolate target from allies",
     "Slot": ["Hands"],
     "Description": "The Nightmare's hands become thin and clawed, as if belonging to a beast made of shadow. When the Nightmare's curse activates, black hands reach from the cursed victim's shadows, holding him in place.\n\nAs a free action, the entitled may single out a victim that they have cursed. That target becomes anchored to their current location, and cannot move more than 5 feet from that location without making a bull rush attempt against a CMD of 10 + your veilweaver level + your veilweaving modifier. This bull rush is made as a part of the move action and does not provoke an attack of opportunity. The target takes a -1 penalty for every 5 feet of distance between it and its anchor point. Failing this check means the target's move is wasted and it cannot move farther away. If it fails this check by 10 or more, it is pulled 5 feet toward the tether point and is knocked prone. If it beats the check by 10 or more, the effects of this veil ends. Only one creature may be affected by this veil at a time.\n\nThe entitled also gains the ability to bestow a latent curse onto their weapon. Doing so is done as a swift action, and this latent power lasts for 1 round. If this weapon hits, the latent power is released, and the creature struck by the weapon is cursed for 1 minute.",
     "Essence": "Each point of essence increases the CMD of this veil's effect by 2 and the save DC by 1.",
@@ -247,6 +291,8 @@
   {
     "Name": "The Transmuter",
     "Descriptors": "Title",
+    "ShortDescription": "Turn the ground into grease or the air into difficult terrain",
+    "BindEffect": "Alter the air and the ground at the same time",
     "Slot": ["Hands"],
     "Description": "Shifting energy surrounds the Transmuter's hands, warping light, space, and texture around them.\n\nAs a standard action, the entitled can alter reality within a 10-foot diameter spread at a point within Medium range (100 feet + 10 feet per veilweaver level). They can choose whether they wish to alter solid terrain within the area, or whether they wish to alter the atmosphere within the area (whether that be water, air, or some other form of gas). No matter their choice, this effect persists for 1 round or until they use this ability again.\n\nWhen altering solid terrain, the surface of terrain within the area (such as walls, ceilings, solid ground, or unattended objects large enough to traverse) is transmuted into a slick grease. These objects otherwise retain their shape, and still function as normal (such as a pillar holding up the ceiling). Any creature standing on or otherwise supported by affected terrain (such as a creature climbing up a ladder) must make a successful Reflex save or fall. Creatures can walk within or through the affected areas at full speed with a DC 10 Acrobatics check, or they can treat the area as difficult terrain without making a check. Failure means that creature can't move that round and must then make a Reflex save or fall, while failure by 5 or more means it falls within having to make a save. Creatures attempting to climb affected objects have the DC of their Climb check increased by +10. Prone creatures attempting to stand within the affected area must make a DC 10 Acrobatics check to do so, failure means they fail to do so and can't move that round.\n\nWhen altering the atmosphere, the atmosphere within the area (air, water, or other gases) is thickened by transmutative magics that make passing through it more difficult. Creatures must spend twice the normal amount of movement when moving through areas of altered atmosphere, and suffer a -1 penalty to AC, Reflex saves, and attack rolls while in the affected area.\n\nWhenever the entitled casts a spell or uses a spell-like ability of the transmutation school, they can instead use this ability as a move action, but doing so halves the diameter of the created spread of transmutation (a 5-foot diameter spread is centered on a space, rather than on an intersection of spaces.",
     "Essence": "For each point of essence invested in this veil, the duration of this ability increases by 1 round and the diameter of the spread increases by 10 feet. The entitled can choose to reduce the size of the created effect, to a minimum of a 10-foot diameter (5 feet, if used as a move action).\n\nFor each even point of essence invested, the saving throw DC of this veil increases by +1, the DC of Acrobatics checks imposed by the veil are increased by 2, and the penalty to AC, Reflex saves, and attack rolls imposed by this veil is worsened by -1.",
@@ -258,6 +304,8 @@
   {
     "Name": "The Astronomer",
     "Descriptors": "Title",
+    "ShortDescription": "Designate a line, attack all creatures within when making ranged attacks",
+    "BindEffect": "Your line erupts in a wall of light that obscures vision",
     "Slot": ["Head"],
     "Description": "The astronomer's eyes glitter with a dozen motes of light, some connected by lines in tiny constellations.\n\nAs a move action, or once per round as part of using any action to move at least ten feet, the entitled may designate a line of up to 20 feet within medium range (100 feet + 10 feet per veilweaver level). The line does not need to originate from the entitled; it may start anywhere and travel in any direction as long as it is completely contained within range. Once designated, the line glows faintly and remains until the entitled designates another line with this veil, dismisses the line as a free action, or has the line completely out of range.\n\nOnce per round when the entitled makes a ranged weapon attack against any creature in the line, phantom copies of their ammunition appear around them and fire at all other creatures of their choice within the line's area. These extra attacks all share the original attack roll result, but cannot critically hit and otherwise are treated as normal attacks: they do not gain any additional damage or effects from strike maneuvers, or from any other source, unless the bonus damage or effects would automatically apply to every ranged attack the entitled would make during that turn. The entitled is only considered to have made one attack, but each targeted creature defends against their instance of it separately. The phantom attacks are treated as if made with the same weapon and ammunition as the original attack, but the effects of any limited-use properties of them are not replicated. Attacks with alchemical weapons cannot be copied.\n\nIf the entitled has an active Trail from a maneuver and any part of that trail overlaps with their designated line from this veil, the entire area of the line is treated as an extension of the trail while it is active.",
     "Essence": "For each point of essence invested in this veil, the maximum length of the designated line increases by 5 feet. For every three points of essence invested, the entitled can copy an additional ranged attack each round.",
@@ -269,6 +317,8 @@
   {
     "Name": "The Enchanter",
     "Descriptors": "Mind-affecting, Title",
+    "ShortDescription": "Prevent foes from attacking you",
+    "BindEffect": "Attack foes without allowing them to attack back",
     "Slot": ["Head"],
     "Description": "A field of multi-hued effervescence surrounds the Enchanter, lining their words and infuses their glances with potent magics that bend the minds of their foes.\n\nAs a standard action, the entitled can ward themselves with intense beguiling magics that make it difficult for creatures to find the will to attack them until the end of the entitlted's next turn. Each creature that can perceive the entitled must succeed on a Will save when this ability is used, and then at the beginning of each of their turns while the beguiling ward is active, or be unable to attack the entitled or target them with a hostile targeted ability until the beginning of their next turn. They can still include the entitled within effects that target an area that don't target specific creatures within that area (such as the fireball spell). Creatures immune to mind-affecting effects ignore the effects of this veil.\n\nIf the entitled attacks a beguiled creature, or affects them with a targeted hostile effect, the creature automatically succeeds on their next saving throw against this ability.\n\nWhenever the entitled casts a spell or uses a spell-like ability of the enchantment school, they can instead use this ability as a move action, but when they do so they only choose one creature the effects of this veil apply against, plus an additional creature per point of essence invested in the veil.",
     "Essence": "For each point of essence invested in this veil the duration of the beguiling ward increases by 1 round. For every two points of essence invested, the saving throw DC of this veil increases by 1.",
@@ -280,6 +330,8 @@
   {
     "Name": "The Luchadore",
     "Descriptors": "Title",
+    "ShortDescription": "Gain Improved Grapple, grapple with fewer limbs, grapple at the end of a charge",
+    "BindEffect": "Gain Greater Grapple and several special grapple finishing moves",
     "Slot": ["Head"],
     "Description": "The Luchadore's face is covered with a brightly colored mask. Their muscles bulge and strain beneath their skin.\n\nThe entitled gains the effects of the Improved Grapple feat. If they already have Improved Grapple, they may grapple creatures with only one arm or with their legs without taking the -4 penalty for doing so. They may make a grapple attempt at the end of a charge.",
     "Essence": "For each point of essence invested in this veil, the entitled gains a +1 insight bonus to grapple checks made as part of a charge.",
@@ -291,6 +343,8 @@
   {
     "Name": "The Memory",
     "Descriptors": "Title",
+    "ShortDescription": "Your attacks cause distortions that explode one round later",
+    "BindEffect": "Slow victims",
     "Slot": ["Head"],
     "Description": "The actions of the Memory echo through time, replaying again moments later.\n\nOnce per round, when the entitled makes an attack or produces a damaging effect that would include one or more creatures (either by creating a damaging area-of-effect and/or targeting them directly), they can create an echo as a free action in the spaces of the area of effect and/or targeted creatures. An echo does not block line of sight or movement, but any intelligent creature can tell that these echos are dangerous. At the start of the entitled's next turn, the echo explodes, destroying itself and causing a brief distortion of time and space within the area. Enemies caught in this distortion take 1d6 points of damage. This damage increases by 1d6 for every 4 veilweaver levels you possess.",
     "Essence": "Each point of essence increases the damage done by the temporal distortions by 1d6.",
@@ -302,6 +356,8 @@
   {
     "Name": "The Quickening",
     "Descriptors": "Title",
+    "ShortDescription": "Gain DR/-, blindsense, and increased move speed",
+    "BindEffect": "Become immortal, gain positive levels when slaying creatures Grant this veil to foes that slay you",
     "Slot": ["Head"],
     "Description": "Who wants to live forever?\n\nThe entitled gains DR 2/-, blindsense equal to 15 feet, and their move speed increases by 5 feet. Unlike other titles, the quickening is not suppressed when it moves out of range of the veilweaver. However, it is suppressed if the entitled takes any hostile action while in an area sacred to them, the veilweaver, or the ancestors of either of them. The suppression ends if the entitled leaves the sacred area or if they cease their hostile action.",
     "Essence": "Each point of essence invested in this veil increases the entitled's DR by +1 and their blindsense and move speed by +5 feet.",
@@ -313,6 +369,8 @@
   {
     "Name": "The Resolute",
     "Descriptors": "Title",
+    "ShortDescription": "Gain psionic benefits, expend psionic focus to re-roll some dice rolls",
+    "BindEffect": "Recover psionic focus on dropping a foe",
     "Slot": ["Head"],
     "Description": "A silvery metal covers the Resolute's cheeks and jaw, wrapping up behind their head. This metal seems to change colors with the wearer's mood.\n\nThe entitled gains two power points and the psionic subtype, allowing them to become psionically focused. If they already had the psionic subtype, they instead gain a number of bonus power points equal to your veilweaver level (minimum 2). These power points are ready to use immediately and used before the character's normal power points (much like temporary hit points). As the power draws out or enforces ones psionic potential, the points granted by this veil are unique to each individual. With 1 round of concentration following 8 hours of rest, you can replenish the power points this veil grants.\n\nThe entitled can expend their psionic focus to reroll a skill check made as a part of a maneuver, an attack roll, damage roll, or a saving throw after seeing the result of their roll. This does not require an action on the part of the entitled, and can be done at any time.",
     "Essence": "When the entitled uses this veil to reroll a d20, they gain a bonus on their reroll equal to the amount of essence invested in this veil.",
@@ -324,6 +382,8 @@
   {
     "Name": "The Telepath",
     "Descriptors": "Mind-affecting, Psionic, Title",
+    "ShortDescription": "Gain a collective and telepathy, gain empathic connection as a PLA, gain +1 ML when manifesting telepathy powers",
+    "BindEffect": "Gain mind thrust as a PLA",
     "Slot": ["Head"],
     "Description": "A mystical third eye opens upon the Telepath's brow.\n\nThe entitled gains a collective and telepathy, as the vitalist class features, using your veilweaver level as their vitalist level and your veilweaving modifier as their Wisdom when determining the effects of that ability. Once per hour, they may use empathic connection as a psi-like ability.\n\nWhenever the entitled manifests a power of the telepathy discipline, they do so with a +1 bonus to their manifester level.",
     "Essence": "Each point of essence invested in this veil is treated as 1 power point used to augment the psi-like abilities granted by this veil. This is in addition to the normal effective power points that a psi-like ability gains, and can surpass the limit of the psi-like ability's manifester level.",
@@ -335,6 +395,8 @@
   {
     "Name": "The Watcher",
     "Descriptors": "Curse, Title",
+    "ShortDescription": "Curse enemies, and cause them to take penalties when attacking your allies",
+    "BindEffect": "Gain temporary hit points by damaging cursed opponents",
     "Slot": ["Head"],
     "Description": "A simple eyepatch forms over the eye of the Watcher. Those who the Watcher has cursed sees the Watcher's gaze in every shadow.\n\nTargets the entitled has cursed take a -2 penalty on attack rolls against targets other than the entitled and have the save DCs of their abilities reduced by 1 if those abilities are not being used against the entitled.\n\nThe entitled also gains the ability to bestow a latent curse onto their weapon. Doing so is done as a swift action, and this latent power lasts for 1 round. If this weapon hits, the latent power is released, and the creature struck by the weapon becomes cursed for 1 minute.",
     "Essence": "Each point of essence invested in this veil increases the attack penalty by 1. Every two points of essence increases the reduction to save DCs by 1.",
@@ -346,6 +408,8 @@
   {
     "Name": "The Benevolent",
     "Descriptors": "Good, Title",
+    "ShortDescription": "Gain bonuses when fighting evil",
+    "BindEffect": "Share protections with allies, wield holy weapons & shed daylight",
     "Slot": ["Headband"],
     "Description": "A golden halo forms above the Benevolent's head. Just looking at it fills one with hope for better days.\n\nThe entitled gains a +2 deflection bonus to their AC and a +2 sacred bonus on saving throws against the attacks and abilities of evil creatures. Thy gain an additional +2 bonus on saving throws against mind-affecting effects, also gain resistance 5 to acid and cold, and damage reduction 0/evil; this damage reduction alone is not enough to reduce damage, see below. Finally, the entitled gains a halo that glows as per the light spell. The entitled can suppress or resume this glow as a free action.",
     "Essence": "For each point of essence invested in this veil, the entitled increases their resistance to acid and cold by 2, and increases both the damage reduction granted by the Title and their deflection bonus to AC against evil creatures by +1. For every two points of essence invested into this veil, the entitled increases their bonus on saving throws against evil creatures by +1.",
@@ -357,6 +421,8 @@
   {
     "Name": "The Demiurge",
     "Descriptors": "None",
+    "ShortDescription": "Gain the effect of a Title veil you currently have shaped",
+    "BindEffect": "Gain the binding of chosen Title",
     "Slot": ["Headband"],
     "Description": "A crown of gold, seemingly made with the sun's light, adorns the Demiurge's head. All of creation is for them to use as they see fit.\n\nThis veil emulates one of your Title veils, granting you the effect of any one Title veil that you're currently shaping onto your allies (even if that Title is currently suppressed because the ally is out of range). You do not gain the effects of any invested essence or binds (see below). You can change which of your Titles this veil is emulating as a swift action, or whenever you would reallocate your essence.\n\nYou may bind this veil to the Headband chakra if you have the empowered titles class feature, even if you normally cannot bind Headband veils.",
     "Essence": "The essence invested in this veil is treated as if it were invested into the emulated Title for the purposes of determining its effect on you.",
@@ -368,6 +434,8 @@
   {
     "Name": "The Diviner",
     "Descriptors": "Title",
+    "ShortDescription": "Gain motes that can be used for +20 to AC or attack rolls",
+    "BindEffect": "Expend motes on other creatures in close range",
     "Slot": ["Headband"],
     "Description": "Glyphs hover around the edge's of the Diviner's eyes, flaring to life and granting them a brief glimpse of events to come.\n\nAs a standard action, the entitled can glimpse into the future and perfectly divine the results of an upcoming action, allowing them to change its results. Until the end of the entitled's next turn they gain one mote of divination. Whenever the entitled is targeted by an attack or when they make an attack roll, they can expend one mote of divination to gain a +20 insight bonus to their AC against that attack or a +20 insight bonus to their attack roll. When making an attack modified by this ability, that attack ignores a target's concealment, the effects of the mirror image spell, or similar effects or abilities. The choice to spend a mote must be made before the attack is rolled.\n\nWhenever the entitled casts a spell or uses a spell-like ability of the divination school, they can instead use this ability as a move action, but doing so reduces the insight bonus provided by this ability to +10. They can choose to spend this action as part of casting that spell to allow them to spend a mote of divination granted by this ability to alter an attack made as part of using this spell with this ability.\n\nWhen the entitled rolls for initiative, or if they use this ability a second time, the effects of this veil immediately end. If the entitled initiates combat and surprises their foe, they instead retain and may spend a single mote of divination on an attack they make during the surprise round.",
     "Essence": "For each point of essence invested in this veil, the duration of this veil's special ability increases by 1 round. For every 2 points of essence invested in this veil, the veil grants an additional mote of divination when its special ability is used.",
@@ -379,6 +447,8 @@
   {
     "Name": "The Fallen",
     "Descriptors": "Evil, Title",
+    "ShortDescription": "Inhibit enemies with black feathers",
+    "BindEffect": "Unleash cone of feathers, wield unholy weapons",
     "Slot": ["Headband"],
     "Description": "Two black horns curl up from either side of the Fallen's head, the tips tinged with a deep red.\n\nOnce per round as a free action, the entitled may conjure and direct a black feather to unerringly strike a creature within close range (25 feet + 5 feet per 2 veilweaver levels). This action does not provoke an attack of opportunity. Creatures struck by the black feather find it painful and hard to remove, requiring a move action to pull the feather from their body. A creature may have any number of feathers from this veil embedded in them.\n\nWhile at least one feather from this veil is embedded into a creature, that creature takes a -1 penalty on attack rolls and suffers a 10% spell failure chance, and all weapon damage dealt to that creature is profane damage. Additional feathers do not increase these penalties.",
     "Essence": "Each point of essence invested in this veil increases the penalty to attack rolls by 1 and the spell failure chance by 10%, up to a maximum penalty of -5 and failure chance of 50%. Every point of essence past 4 adds a cumulative -1 penalty to a creature's AC when they are impaled by a feather.",
@@ -390,6 +460,8 @@
   {
     "Name": "The First",
     "Descriptors": "Divination, Mind-Affecting, Title",
+    "ShortDescription": "Gain bonuses to initiative and saves vs charm and compulsion, use command as an SLA",
+    "BindEffect": "The command SLA affects multiple creatures, the saving throw bonus applies to slowing effects",
     "Slot": ["Headband"],
     "Description": "“…he [Poseidon] gave to the first-born of the eldest pair his mother's dwelling and the surrounding allotment, which was the largest and best, and made him king over the rest...” - Critias\n\nThe entitled gains a +1 sacred bonus to Initiative and on saving throws against charm and compulsion effects. In addition the entitled gains the ability to cast command as a spell-like ability a number of times per day equal to your veilweaving modifier, with a caster level equal to your veilweaver level.",
     "Essence": "For each point of essence invested in this veil the sacred bonus to Initiative and saving throws increases by +1.",
@@ -401,6 +473,8 @@
   {
     "Name": "The Seer",
     "Descriptors": "Psionic, Title",
+    "ShortDescription": "Gain detect psionic and detect akasha as PLAs, swift action gain +2 insight bonus to your next d20 roll, gain +1 ML when manifesting clairsentience powers",
+    "BindEffect": "Gain sensitivity to psychic impressions as an at-will PLA, roll twice when using this veil's swift action",
     "Slot": ["Headband"],
     "Description": "Glowing with power, the Seer's eyes see beyond sight.\n\nThe entitled gains detect psionics and detect akasha as constant psi-like abilities, using your veilweaver level as the manifester level. As a swift action, they may gain a +2 insight bonus to the next d20 roll they make. The entitled may use this swift action a number of times per encounter equal to 2 + your veilweaving modifier. By expending their psionic focus, the entitled may use this ability when rolling an initiative check.\n\nWhenever the entitled manifests a power of the clairsentience discipline, they do so with a +1 bonus to their manifester level.",
     "Essence": "Each point of essence invested in this veil increases the bonus granted by the swift action by +2. For every 3 points of essence invested, the bonus lasts for an additional d20 roll.",
@@ -412,6 +486,8 @@
   {
     "Name": "The Abjurer",
     "Descriptors": "Title",
+    "ShortDescription": "Forbid approach or escape from an area",
+    "BindEffect": "Forbid approach and escape from medium range. Creatures who disobey take damage",
     "Slot": ["Neck"],
     "Description": "Silver chains wrap loosely around the Abjurer's neck, spiraling out to deny their foes when called upon.\n\nAs a standard action, the entitled can place a 10-foot diameter circle of forbiddance within Close range (25 feet + 5 feet per two veilweaver levels) of them that persists until the end of the entitled's next turn. This circle forms a sphere of abjuration surrounding the area. The sphere intersects objects, but it cannot be created in a location that would intersect a creature. If an unwilling creature is caught within the area of the circle and is adjacent to one of its edges they can make a Reflex saving throw to intersect the circle as it forms, destroying it on a successful save.\n\nWhen the entitled uses this ability, they can choose whether this circle forbids entrance or forbids exit.  If they choose to forbid entrance, any of the entitled's enemies who attempt to enter the circle are subject to its effects. If they choose to forbid exit, any of the entitled's enemies who attempt to leave the circle are subject to its effects. Creatures can still make melee and ranged attacks through the edge of the circle.\n\nEnemies who attempt to enter the circle (if it forbids entrance) or leave (if it forbids exits) must make a Will saving throw. If they fail, they cannot enter or leave the circle until the beginning of their next turn, after which they can make another Will save to enter or leave the area.. If a creature attempts to enter or leave the area of the circle through magical means (such as teleportation), they must still make this saving throw. If they fail, the effect they attempted to use fails as well and they cannot enter or leave the circle until the beginning of their next turn.\n\nWhenever the entitled casts a spell or uses a spell-like ability of the abjuration school, they can instead use this ability as a move action, but doing so halves the diameter of the created circle of forbiddance (a 5-foot diameter circle of forbiddance is centered on a space, rather than on an intersection of spaces, and can contain Medium or smaller sized creatures).",
     "Essence": "For each point of essence invested in this veil, the diameter of the circle increases by 10 feet and its duration increases by 1 round. The entitled can choose to create a circle of a smaller diameter, to a minimum of 10-foot diameter circle (5-foot diameter, if used as a move action). For every even point of essence invested, the saving throw DC of this veil increases by +1.",
@@ -423,6 +499,8 @@
   {
     "Name": "The Gravekeeper",
     "Descriptors": "Title",
+    "ShortDescription": "Drain life from enemies you hit",
+    "BindEffect": "Heal upon dropping an enemy or as a move action",
     "Slot": ["Neck"],
     "Description": "Bloody handprints wrap around the Gravekeeper's neck. This blood is always wet to the touch.\n\nThe entitled gains a blood pool with a maximum equal to their total hit points. When the entitled rolls initiative, this blood pool becomes 0. Whenever the entitled deals damage, they store half of the damage they deal into this blood pool. If they deal damage in an area of effect, they store half of the highest damage they deal to any one individual target in this blood pool.\n\nAs a standard action, the entitled may remove any amount of points from their blood pool and heal themselves for an amount of hit points equal to the amount of blood points removed.",
     "Essence": "Whenever you heal hit points from this veil, your next attack deals an additional 1d6+1 points of damage for each point of essence invested into this veil. This effect lasts for 1 minute or until you hit with an attack.",
@@ -434,6 +512,8 @@
   {
     "Name": "The Shaper",
     "Descriptors": "Psionic, Title",
+    "ShortDescription": "Gain crystal armor or a small ectoplasmic sheen, gain +1 ML when manifesting metacreativity powers",
+    "BindEffect": "Your crystal aspect grants DR or your ectoplasmic aspect increases your reach",
     "Slot": ["Neck"],
     "Description": "A necklace of crystals, bound together with pulsing ectoplasm, encircles the Shaper's throat.\n\nThis veil grants the entitled a special ability based on their choice of either the crystal or ectoplasm aspect. They may change which aspect they are affected by as a swift action or as part of reallocating their essence.\n\nCrystal: The entitled gains a +1 bonus to their natural armor.\nEctoplasm: As a standard action, the entitled can summon a small amount of slick ectoplasm. This functions as ectoplasmic sheen, except using it on a surface only creates a 5 foot square of ectoplasm.\nThis effect overlaps (does not stack) with existing untyped increases to natural armor.\n\nWhenever the entitled manifests a power of the metacreativity discipline, they do so with a +1 bonus to their manifester level.",
     "Essence": "Each point of essence invested in this veil increases the natural armor bonus granted by the crystal aspect by +1. Every point of essence invested increases the number of creatures or objects that can be targeted; or the number of 5 foot squares of ectoplasm that can be created by the ectoplasm aspect by 1. These squares need not be contiguous.",
@@ -445,6 +525,8 @@
   {
     "Name": "The Sparker",
     "Descriptors": "Electricity, Title",
+    "ShortDescription": "Gain Combat Stamina, augment maneuvers, increase sparking range by 1",
+    "BindEffect": "Heal from electricity damage, increase sparking range by 1",
     "Slot": ["Neck"],
     "Description": "Crackling lightning coalesces around the Sparker's throat, filling them with energy and jumping to defend them from attacks.\n\nThe entitled gains Combat Stamina as a bonus feat. If they already have a stamina pool, they may gain Extra Stamina instead. They may spend stamina points to gain a +2 bonus to damage or a +1 bonus to AC per point of stamina spent instead of the +1 bonus per point granted by the Combat Stamina feat. They may use stamina to augment Spark of Battle maneuvers, even if they do not have the Spark of Inspiration feat. If the entitled uses the Sparking system, they increase their sparking range by 1.",
     "Essence": "For each point of essence invested in this veil, the entitled's AC when fighting defensively or using the total defense action increases by +1.",
@@ -456,6 +538,8 @@
   {
     "Name": "The Wild",
     "Descriptors": "Title",
+    "ShortDescription": "Gain physical attributes when attacking with unarmed or natural attacks",
+    "BindEffect": "Increase weapon size when enhanced",
     "Slot": ["Neck"],
     "Description": "A thick mane of fur surrounds the Wild's neck.\n\nThe first time each turn the entitled hits with an unarmed strike or natural weapon, they gain a +2 bonus to Strength, Dexterity, or Constitution. This bonus stacks with itself up to +6 to a single score, but all bonuses are lost if the entitled does not hit with an unarmed strike or natural weapon for 1 round. These bonuses are lost when initiative is rolled.",
     "Essence": "Each point of essence invested in this veil increases both the number of rounds the entitled does not need to hit with an unarmed strike or natural weapon and the maximum bonus to an ability score this veil can provide by 1.",
@@ -467,6 +551,8 @@
   {
     "Name": "Vampire's Blessing",
     "Descriptors": "None",
+    "ShortDescription": "Gain a bite natural attack that grants temporary hit points when used on living creatures",
+    "BindEffect": "Temporarily transform into a vampire",
     "Slot": ["Neck"],
     "Description": "A pair of bloody pinpricks appear on your neck and you grow a pair of razor sharp fangs.\n\nThis veil grants you a bite primary natural attack dealing 1d6 (bludgeoning, piercing, and slashing) damage for medium veilweavers (adjust for other size categories as normal, 1d4 Small and so on). You may use your veilweaver level in place of your base attack bonus to determine your to-hit and other abilities of this veil. Additionally, you gain temporary hit points equal to 1/2 the damage dealt with the bite attack granted by this veil against living creatures. These temporary hit points last for one minute per veilweaver level you possess.",
     "Essence": "For every odd-numbered point of essence invested in this veil, you gain a +1 insight bonus on Bluff and Diplomacy skill checks. For every even-numbered point of essence invested in this veil, the bite attack gains a +1 enhancement bonus.",
@@ -478,6 +564,8 @@
   {
     "Name": "The Conjurer",
     "Descriptors": "Air, Earth, Fire, Title, Water",
+    "ShortDescription": "Conjure an elemental spirit to disrupt foes",
+    "BindEffect": "Change spirit's element and move it as a swift action",
     "Slot": ["Shoulders"],
     "Description": "Raw elemental matter flows around the Conjurer's shoulders in intertwined rings, able to be drawn forth to summon an elemental spirit at their command.\n\nAs a standard action, the entitled can conjure a single elemental spirit from the veil to harry a single creature of the entitled's choice within Close range (25 feet + 5 feet per two veilweaver levels) until the end of the entitled's next turn. The entitled chooses a single element from the following list which determines the effect of the elemental spirit: Air, Earth, Fire, or Water. The entitled may only have a single elemental spirit conjured at a time, conjuring another immediately ends the effects of the first. A creature can attempt to disrupt an elemental spirit that is harassing them by making a Reflex saving throw as a standard action, a success ends the effect. Unlike normal veils, the effects of this veil are not subject to spell resistance.\n\nAir: The elemental spirit takes the form of a mass of wind which surrounds the target and disrupts their ranged attacks. Ranged weapon attacks made by the affected creature suffer a -1 penalty to attack rolls and a -2 penalty on damage rolls. For each point of essence invested in this veil, their ranged weapon attacks suffer a further -2 penalty to damage rolls. For every two points of essence invested, the penalty on ranged weapon attack rolls is worsened by -1.\n\nEarth: The elemental spirit takes the form of churning earth which surrounds the target's limbs, attempting to bind it to the ground. If the creature is flying, it must make a Reflex save each round at the end of its turn or fall. If the creature is grounded or climbing, it suffers a -1 penalty to Reflex saving throws, a -2 penalty to Acrobatics checks, and has its movement speed reduced by 5 feet (to a minimum of 5 feet). For each point of essence invested in this veil, the penalty to Acrobatics checks worsens by -2. For each even point of essence invested in this veil this effect further reduces the creature's movement speed by 5 feet and the creature suffers a further -1 penalty on Reflex saves.\n\nFire: The elemental spirit takes the form of an inferno which begins to surround the target, lashing out at their allies. Enemies of the entitled who begin or end their turn within 5 feet of the affected creature must make a Reflex saving throw or take 1d6 points of fire damage, plus an additional 1d6 per point of essence invested in this veil. For every three points of essence invested in this veil the range of this effect increases by 5 feet. The affected creature is not burned by these flames, but they instead suffer a -2 penalty on Stealth checks and glow with the brightness of a torch, causing them to not benefit from concealment provided by darkness. For each point of essence invested in this veil the penalty worsens by -2. Magical darkness of a level higher than the number of points of essence invested in this veil negates the penalty to Stealth and the glow.\n\nWater: The elemental spirit takes on the form of a swirling current that surrounds the target's limbs, hampering their melee attacks. Melee weapon attacks made by the affected creature suffer a -1 penalty to attack rolls and a -2 penalty on damage rolls. For each point of essence invested in this veil, their melee weapon attacks suffer a further -2 penalty to damage rolls. For every two points of essence invested, the penalty on melee weapon attack rolls is worsened by -1.\n\nWhenever the entitled casts a spell or uses a spell-like ability of the conjuration school, they can instead use this ability as a move action, but doing so reduces the effects of the elemental spirit, as listed below.\n\nAir: The spirit no longer imposes a penalty on ranged attack rolls.\n\nEarth: The entitled must choose whether they wish to reduce the target's speed or penalize their Reflex saves when they conjure the spirit, rather than both.\n\nFire: The damage dice of the spirit's flames are reduced to 1d4, the penalties to Stealth checks imposed by the veil are halved, and any level of magical darkness negates the glow and stealth penalties.\n\nWater: The spirit no longer imposes a penalty on melee attack rolls.",
     "Essence": "For each point of essence invested in this veil, the duration of the conjured elemental spirit increases by 1 round.",
@@ -489,6 +577,8 @@
   {
     "Name": "The Exploiter",
     "Descriptors": "Title",
+    "ShortDescription": "Trick creatures, lower their AC and saving throws",
+    "BindEffect": "Gain Dirty Trick Master, treat allies as though they were maintaining a Roaring Mouse stance",
     "Slot": ["Shoulders"],
     "Description": "From the Exploiter's shoulders springs a flowing cloak, shrouding their movements from view.\n\nAs a swift action, the entitled may infuse a bit of this veil into their weapon, performing a dastardly trick upon the next creature it strikes. The creature becomes tricked for 1 minute. Targets the entitled has tricked have a penalty to their AC of -2 and to their saving throws of -1.",
     "Essence": "Each point of essence invested in this veil increases the AC penalty by 1. Every two points of essence increases the saving throw penalty by 1.",
@@ -500,6 +590,8 @@
   {
     "Name": "The Illusionist",
     "Descriptors": "Glamer, Title",
+    "ShortDescription": "Hide in plain sight",
+    "BindEffect": "Attack without breaking stealth and hide in plain sight as a move action",
     "Slot": ["Shoulders"],
     "Description": "A shroud of hazy energy wraps around the Illusionist's shoulders, allowing them to fade from view.\n\nAs a standard action, the entitled can wrap themselves in a shroud of illusionary magics that hides them from sight. Until the end of the entitled's next turn, they can make Stealth checks to hide while observed and without needing cover or concealment and gain a +2 insight bonus on Stealth checks. They can also make a Stealth check to hide as part of using this ability. If the entitled is hidden using this ability without cover or concealment when the effect ends, they are immediately revealed.\n\nThis effect counts as invisibility for effects that interact with it (such as spells that negate it or see through it), and therefore does not stack with the invisibility spell or other, similar effects. This effect ends immediately if the entitled attacks a creature, or uses an ability that targets a foe or includes a foe in its area of effect.\n\nWhenever the entitled casts a spell or uses a spell-like ability of the illusion school, they can instead use this ability as a move action, but the bonus to Stealth checks provided by this ability is only +1.",
     "Essence": "For each point of essence invested in this veil, the bonus to Stealth checks granted by this veil increased by 2 (or by 1, when used as a move action). For each even point of essence invested, the effects of this veil last for an additional round.",
@@ -511,6 +603,8 @@
   {
     "Name": "The Mighty",
     "Descriptors": "Title",
+    "ShortDescription": "Enter bull rush- & sunder-enhancing rage",
+    "BindEffect": "Steer & damage foes by bull rushing into things",
     "Slot": ["Shoulders"],
     "Description": "Massive pauldrons, in the shape of mountains, rests upon the Mighty's shoulders.\n\nThe entitled can call upon this veil's power to enter a mighty rage. The entitled may use this veil's power for no more than a number of consecutive rounds equal to your veilweaving modifier. The entitled can enter this rage as a free action on their turn, but the entitled may not enter this rage if they are fatigued or exhausted. The entitled may leave this rage on their turn as a free action, but become fatigued upon doing so for rounds equal to the number of rounds raged this way (minimum 1 round).\n\nWhile raging, the entitled takes a -2 penalty to their armor class, but their weapon and natural attacks ignore hardness. Additionally, once per round while raging in this manner, when the entitled hits with an attack, they may make a free bullrush attempt against the target of that attack. This bullrush does not provoke an attack of opportunity.",
     "Essence": "Each point of essence invested into this veil grants the entitled a +2 bonus on checks made to bull rush, and every 2 points of essence invested into this veil increases the damage done by this veil's bind by 1d6+1.",
@@ -522,6 +616,8 @@
   {
     "Name": "The Warlord",
     "Descriptors": "Title",
+    "ShortDescription": "Gain a flag made of akasha, grant bonuses to nearby allies",
+    "BindEffect": "Place protective sigil that grants AC & temporary hit points",
     "Slot": ["Shoulders"],
     "Description": "A heavy weight settles into the Warlord's shoulders, as a symbol of hope forms overhead.\n\nAs a swift action, the entitled may designate a creature within close range (25 feet + 5 feet per two veilweaver levels). Attacks made against the designated target gain a +2 bonus on attack and damage rolls. During each of the entitled's allies' turns, that ally may, as a free action, move 5 feet if they are within close range of the designated creature. This movement must place the ally closer to the designated target, and does not interfere with the entitled's allies' ability to make 5 foot steps. Only one creature may be designated this way at a time. Designating a new creature removes the old designation. Designations can be removed as a swift action.",
     "Essence": "Each point of essence invested in this veil increases the amount of movement granted by this veil by 5 feet. For every two points of essence invested, the bonus granted on attack and weapon damage rolls increases by +1.",
@@ -533,6 +629,8 @@
   {
     "Name": "The Wave",
     "Descriptors": "Water, Title",
+    "ShortDescription": "Gain a swim speed, increase movement when charging, running, or withdrawing",
+    "BindEffect": "Make melee attacks at range, count as an aquatic creature for call of the deep effects",
     "Slot": ["Shoulders"],
     "Description": "Dripping fins emerge from the Wave's back, the water flowing down their arms to their fingertips.\n\nThe entitled gains a swim speed equal to their land speed, and adds +5 feet to their speed when taking the charge, run, or withdraw actions. If taking these actions underwater, this bonus is doubled.",
     "Essence": "Each point of essence invested in this veil increases the bonus speed by +5 feet. For every two points of essence, the entitled gains a +1 bonus to attack and a +2 bonus to damage when making charge attacks.",
@@ -544,6 +642,8 @@
   {
     "Name": "The Evoker",
     "Descriptors": "Force, Title",
+    "ShortDescription": "Launch unavoidable shards of force",
+    "BindEffect": "Shards of force explode in an area",
     "Slot": ["Wrists"],
     "Description": "Interlocking sharpened panels of translucent force form a rotating ring that hovers around the Evoker's wrists.\n\nAs a standard action, the entitled may launch a shard of force at a creature within Close range (25 feet + 5 feet per two veilweaver levels) which deals a number of points of force damage equal to the veil's veilweaving modifier. This shard of force strikes its target without the need for an attack roll, but cannot be used to strike a target that has total cover or total concealment. This shard cannot be used to damage objects.\n\nWhenever the entitled casts a spell or uses a spell-like ability of the evocation school, they can instead use this ability as a move action, but doing so causes it to only deal half the normal damage (rounded down, minimum 1).",
     "Essence": "For each point of essence invested in this veil, the shard of force deals an additional 2 points of damage (or 1, if used as a move action).",
@@ -555,6 +655,8 @@
   {
     "Name": "The Protector",
     "Descriptors": "Title",
+    "ShortDescription": "Move to intercept incoming attack",
+    "BindEffect": "Ease interception, gain temporary AC & save bonuses",
     "Slot": ["Wrists"],
     "Description": "A shield of akashic energy settles over the Protector's wrists, tugging at their body to intercept attacks.\n\nWhen an ally within 10 feet is subjected to a single target spell, power, or an attack, as an immediate action, the entitled may move up to 10 feet and redirect the attack, spell, or power to themselves. The entitled must end their movement adjacent to their ally or this effect fails. This veil's power must be declared before dice have been rolled.",
     "Essence": "Each point of essence invested in this veil increases the range that your ally can be in and the amount of movement that you can move by 5 feet.",
@@ -566,6 +668,8 @@
   {
     "Name": "The Sniper",
     "Descriptors": "Title",
+    "ShortDescription": "Ricochet attacks, redirect on a miss",
+    "BindEffect": "Improve weapons critical damage & threat range",
     "Slot": ["Wrists"],
     "Description": "The Sniper's arms become covered in ornate, flowing tattoos, and he gains the ability to ricochet attacks at improbable and infuriating angles.\n\nThe entitled may choose to have their ranged attacks originate from any point within their weapon's first range increment (or the maximum range of the attack, if it has no range increment) that they have line of sight and line of effect to. Distance penalties are measured using the sum of the distance from the entitled to their chosen point and the distance from that point to the target, though the maximum range of the attack is measured from either the entitled or her chosen point. This can result in attacks reaching farther and taking greater penalties than without this veil's effect. Additionally, once per round, when the entitled misses a ranged attack, he can choose to attempt that attack against another, different target within range, using the space of the target he missed to determine line of sight and line of effect.",
     "Essence": "For each point of essence invested in this veil, the entitled lessens the total penalty on their attack rolls by 1 to a minimum of 0. In addition, the entitled may use this veil's effect on a miss one additional time per round for every two points of essence invested in this veil (including on the same attack multiple times if they wish).",
@@ -577,6 +681,8 @@
   {
     "Name": "The Specialist",
     "Descriptors": "Acid, Cold, Electricity, Fire, Title",
+    "ShortDescription": "Gain phantom ammunition with unique effects",
+    "BindEffect": "Create flurry of damaging territories",
     "Slot": ["Wrists"],
     "Description": "Tiny elemental stick to the Specialists' wrists, conjuring myriads of ammunition when needed.\n\nWhenever the entitled reloads a projectile weapon, he can choose to create any of the following types of ammunition out of distilled akasha. This does not require an action, and is done as part of reloading the weapon. Ammunition created in this way counts as magic for the purposes of overcoming damage reduction, and can only be used by the entitled. If the entitled would throw a non-consumable weapon (Such as an alchemist's fire), they may instead throw a phantom copy of that weapon. This phantom copy lasts until the end of the entitled's turn, but otherwise functions in all ways as the weapon they would have thrown. Daily uses across the weapon, such as that of a dagger of venom's poison effect, are shared across the original and all other phantom copies.\n\nAlkaline: All damage dealt by this ammunition is acid damage, and when it hits a creature, it explodes outwards, dealing acid damage equal to your veilweaving modifier to all enemies adjacent to the target. The target and all enemies hit by the splash must make a Reflex save or have their AC reduced by 1 for 1 minute. This effect stacks with itself.\nChilling: All damage dealt by this ammunition is nonlethal cold damage, and the target of the attack must make a Fortitude save or become fatigued until the nonlethal damage this ammunition deals is healed. This fatigue effect cannot increase any existing fatigue effect to exhaustion.\nSoulfire: All damage dealt by this ammunition is fire damage, and any creature hit must make a Reflex save or catch on fire, taking fire damage equal to your veilweaving modifier. Each subsequent round, a burning target can attempt a new Reflex save to extinguish the flames; otherwise it takes fire damage equal to your veilweaving modifier again. While burning in this way, they are outlined as if by faerie fire. A creature may only be affected by one Soulfire at a time.\nThunderbolt: All damage dealt by this ammunition is electricity damage, and any creature hit, along with all enemies within 10ft of the creature hit, must make a Fortitude save or be deafened for 1 minute.\nNormal: This ammunition is treated as the weapon's normal ammunition.\nIf the weapon generates its own ammunition (such as a weapon with the endless ammunition weapon special ability), the entitled may instead choose to generate one of the above ammunition types. If the entitled chooses to use their own ammunition, they may add one of the above effects to that ammunition. Weapons that are thrown may gain the effect of one of these ammunitions. Weapons that gain properties this way have this effect last until the end of your turn. Ammunition conjured this way is treated as being magic for the purposes of overcoming damage resistance.\n\nThe DC of any saving throw against the effects of these ammunitions, such as the Reflex save to stop burning from soulfire, is equal to 10 + 1/2 your veilweaver level + your veilweaving modifier.",
     "Essence": "Each point of essence invested into this veil increases the DCs of ammunition granted by this veil by 1. In addition, each ammunition type gains an additional effect:\n\nThunderbolt - The entitled gains a +1 bonus on attack rolls when using this ammunition if their opponent is wearing metal armor, is wielding a metal weapon, or is made of metal for each point of essence invested into this veil.\nSoulfire - Each round in which a creature fails a Reflex save against this ammunition, that creature's fire resistance is reduced by an amount equal to the essence invested in this veil. This reduction persists for 1 minute after the creature is no longer burning from this ammunition's effect, and cannot reduce a creature's fire resistance below 0.\nAlkaline - The AC reduction on a failed Reflex save is 1 greater per point of essence invested in this veil.\nChilling - The amount of non-lethal damage damage done is increased by 1 per point of essence invested in this veil.\nNormal - It's just really good ammunition. Masterwork. It looks so pretty as it kills people.",

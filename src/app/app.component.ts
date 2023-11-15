@@ -17,11 +17,23 @@ export class AppComponent {
   public veils: Veil[];
 
   public headers: string[];
+  public slots: string[];
 
   constructor() {
     console.log(data);
     this.veils = data;
+
     this.headers = Object.keys(this.veils[1]);
+
+    let aux: string[] = [];
+    this.veils.forEach((element) => {
+      element.Slot.forEach((element2) => {
+        aux.push(element2);
+      });
+    });
+    this.slots = aux.filter(function (elem, index, self) {
+      return index === self.indexOf(elem);
+    });
   }
 
   public clear(table: Table) {

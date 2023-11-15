@@ -20,6 +20,7 @@ Slot -->
     [paginator]="true"
     currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
     [globalFilterFields]="headers"
+    class="table-veils"
   >
     <ng-template pTemplate="caption">
       <div class="flex">
@@ -43,20 +44,135 @@ Slot -->
     </ng-template>
     <ng-template pTemplate="header">
       <tr>
-        <th *ngFor="let header of headers">
+        <th style="width: 5rem"></th>
+        <th>
           <div class="flex align-items-center">
-            {{ header }}
+            Name
             <p-columnFilter
               type="text"
-              [field]="header"
+              field="Name"
+              display="menu"
+            ></p-columnFilter>
+          </div>
+        </th>
+        <th>
+          <div class="flex align-items-center">
+            Descriptors
+            <p-columnFilter
+              type="text"
+              field="Descriptors"
+              display="menu"
+            ></p-columnFilter>
+          </div>
+        </th>
+        <th>
+          <div class="flex align-items-center">
+            Slot
+            <p-columnFilter
+              field="Slot"
+              display="menu"
+              [showMatchModes]="false"
+              [showOperator]="false"
+              [showAddButton]="false"
+            >
+              <ng-template pTemplate="header">
+                <div class="px-3 pt-3 pb-0">
+                  <span class="font-bold">Pick Slot</span>
+                </div>
+              </ng-template>
+              <ng-template
+                pTemplate="filter"
+                let-value
+                let-filter="filterCallback"
+              >
+                <p-multiSelect
+                  [ngModel]="value"
+                  [options]="slots"
+                  placeholder="Any"
+                  (onChange)="filter($event.value)"
+                >
+                  <ng-template let-option pTemplate="item">
+                    {{ option }}
+                  </ng-template>
+                </p-multiSelect>
+              </ng-template>
+            </p-columnFilter>
+          </div>
+        </th>
+        <th>
+          <div class="flex align-items-center">
+            ShortDescription
+            <p-columnFilter
+              type="text"
+              field="ShortDescription"
+              display="menu"
+            ></p-columnFilter>
+          </div>
+        </th>
+        <th class="not-showed">
+          <div class="flex align-items-center">
+            Bind
+            <p-columnFilter
+              type="text"
+              field="Bind"
+              display="menu"
+            ></p-columnFilter>
+          </div>
+        </th>
+        <th>
+          <div class="flex align-items-center">
+            BindEffect
+            <p-columnFilter
+              type="text"
+              field="BindEffect"
+              display="menu"
+            ></p-columnFilter>
+          </div>
+        </th>
+        <th class="not-showed">
+          <div class="flex align-items-center">
+            Description
+            <p-columnFilter
+              type="text"
+              field="Description"
+              display="menu"
+            ></p-columnFilter>
+          </div>
+        </th>
+        <th class="not-showed">
+          <div class="flex align-items-center">
+            Essence
+            <p-columnFilter
+              type="text"
+              field="Essence"
+              display="menu"
+            ></p-columnFilter>
+          </div>
+        </th>
+        <th>
+          <div class="flex align-items-center">
+            Link
+            <p-columnFilter
+              type="text"
+              field="Link"
               display="menu"
             ></p-columnFilter>
           </div>
         </th>
       </tr>
     </ng-template>
-    <ng-template pTemplate="body" let-veil>
+    <ng-template pTemplate="body" let-veil let-expanded="expanded">
       <tr>
+        <td>
+          <button
+            type="button"
+            pButton
+            pRipple
+            [pRowToggler]="veil"
+            class="p-button-text p-button-rounded p-button-plain"
+            [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+          ></button>
+        </td>
         <td>
           {{ veil.Name }}
         </td>
@@ -67,16 +183,51 @@ Slot -->
           {{ veil.Slot }}
         </td>
         <td>
-          {{ veil.Description }}
+          {{ veil.ShortDescription }}
         </td>
         <td>
-          {{ veil.Essence }}
-        </td>
-        <td>
-          {{ veil.Bind }}
+          {{ veil.BindEffect }}
         </td>
         <td>
           <a [href]="veil.Link" target="_blank"> {{ veil.Name }}</a>
+        </td>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="rowexpansion" let-veil>
+      <tr>
+        <td colspan="7">
+          Esto es una prueba del velo {{ veil.Name }}
+          <!-- <div class="p-3">
+                  <p-table [value]="product.orders" dataKey="id">
+                      <ng-template pTemplate="header">
+                          <tr>
+                              <th pSortableColumn="id">Id <p-sortIcon field="price"></p-sortIcon></th>
+                              <th pSortableColumn="customer">Customer <p-sortIcon field="customer"></p-sortIcon></th>
+                              <th pSortableColumn="date">Date <p-sortIcon field="date"></p-sortIcon></th>
+                              <th pSortableColumn="amount">Amount <p-sortIcon field="amount"></p-sortIcon></th>
+                              <th pSortableColumn="status">Status <p-sortIcon field="status"></p-sortIcon></th>
+                              <th style="width: 4rem"></th>
+                          </tr>
+                      </ng-template>
+                      <ng-template pTemplate="body" let-order>
+                          <tr>
+                              <td>{{ order.id }}</td>
+                              <td>{{ order.customer }}</td>
+                              <td>{{ order.id }}</td>
+                              <td>{{ order.amount | currency: 'USD' }}</td>
+                              <td>
+                                  <p-tag [value]="order.status" [severity]="getStatusSeverity(order.status)"></p-tag>
+                              </td>
+                              <td><p-button type="button" icon="pi pi-plus"></p-button></td>
+                          </tr>
+                      </ng-template>
+                      <ng-template pTemplate="emptymessage">
+                          <tr>
+                              <td colspan="6">There are no order for this product yet.</td>
+                          </tr>
+                      </ng-template>
+                  </p-table>
+              </div> -->
         </td>
       </tr>
     </ng-template>

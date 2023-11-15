@@ -1,0 +1,12 @@
+.card {
+  .table-veils {
+    .not-showed {
+      display: none;
+    }
+  }
+}
+
+::ng-deep .p-multiselect-items-wrapper ul {
+  padding: 0;
+  margin: 0;
+}
